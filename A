@@ -42,3 +42,10 @@ def findNext(number,n):
          x = x * 10 + number[j] 
        
      print "Next number with set of digits is",x
+     # Driver Program to test above function 
+digits = "5349"		
+
+# converting into integer array, 
+# number becomes [5,3,4,9] 
+number = map(int ,digits) 
+findNext(number, len(digits)) 
